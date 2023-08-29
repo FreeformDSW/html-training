@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html lang="pl-PL">
+<head>
+  <title>Struna</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.icon">
+</head>
 <body>
 <style>
 body {
 	background-color: rgb(175, 138, 90);
 	font-family: calibri;
 }
-p {
-  border: 2px solid powderblue;
-  padding: 30px;
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
 }
 </style>
 
@@ -90,6 +106,34 @@ USA
 </address>
 
 <bdo dir="rtl"><br>This text will be written from right to left</bdo>
+
+<hr>
+<h3 style="text-align:center;">Tabelki</h3>
+<table>
+  <tr>
+    <th>Miasto</th>
+    <th>Człek</th>
+    <th>Państwo</th>
+  </tr>
+  <tr>
+    <td>Wrocław</td>
+    <td>Karol Warzecha</td>
+    <td>Polska</td>
+  </tr>
+  <tr>
+    <td>Poznań</td>
+    <td>Weronika Trzask</td>
+    <td>Polska</td>
+  </tr>
+</table>
+
+<hr>
+<h3 style="text-align:center;">Listy</h3>
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
 
 </body>
 </html>
